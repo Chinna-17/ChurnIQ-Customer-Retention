@@ -1,0 +1,6 @@
+{
+  "name": "ChurnIQ — Customer Retention Intelligence Platform",
+  "description": "An ML-powered customer retention platform that identifies customers at risk of churn and turns customer data into actionable retention insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

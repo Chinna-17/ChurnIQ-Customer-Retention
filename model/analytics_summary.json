@@ -1,0 +1,231 @@
+{
+  "datasetOverview": {
+    "totalCustomers": 7043,
+    "churnedCustomers": 1869,
+    "retainedCustomers": 5174,
+    "churnRate": 26.5,
+    "highRiskCustomers": 2088,
+    "mediumRiskCustomers": 1701,
+    "lowRiskCustomers": 3254,
+    "highRiskMRR": 164717.85,
+    "totalMRR": 456116.6,
+    "highRiskMRRPercent": 36.1,
+    "avgTenureMonths": 32.4,
+    "avgMonthlyCharge": 64.76
+  },
+  "churnDistribution": [
+    {
+      "name": "Retained",
+      "value": 5174,
+      "percent": 73.5,
+      "color": "#10b981"
+    },
+    {
+      "name": "Churned",
+      "value": 1869,
+      "percent": 26.5,
+      "color": "#ef4444"
+    }
+  ],
+  "riskDistribution": [
+    {
+      "name": "Low Risk (<35%)",
+      "count": 3254,
+      "color": "#10b981"
+    },
+    {
+      "name": "Medium Risk (35-65%)",
+      "count": 1701,
+      "color": "#f59e0b"
+    },
+    {
+      "name": "High Risk (>65%)",
+      "count": 2088,
+      "color": "#ef4444"
+    }
+  ],
+  "churnByContract": [
+    {
+      "contract": "Month-to-month",
+      "total": 3875,
+      "churned": 1655,
+      "churnRate": 42.7
+    },
+    {
+      "contract": "One year",
+      "total": 1473,
+      "churned": 166,
+      "churnRate": 11.3
+    },
+    {
+      "contract": "Two year",
+      "total": 1695,
+      "churned": 48,
+      "churnRate": 2.8
+    }
+  ],
+  "churnByTenure": [
+    {
+      "tenureGroup": "0-12m",
+      "total": 2186,
+      "churned": 1037,
+      "churnRate": 47.4
+    },
+    {
+      "tenureGroup": "13-24m",
+      "total": 1024,
+      "churned": 294,
+      "churnRate": 28.7
+    },
+    {
+      "tenureGroup": "25-36m",
+      "total": 832,
+      "churned": 180,
+      "churnRate": 21.6
+    },
+    {
+      "tenureGroup": "37-48m",
+      "total": 762,
+      "churned": 145,
+      "churnRate": 19.0
+    },
+    {
+      "tenureGroup": "49-60m",
+      "total": 832,
+      "churned": 120,
+      "churnRate": 14.4
+    },
+    {
+      "tenureGroup": "61-72m",
+      "total": 1407,
+      "churned": 93,
+      "churnRate": 6.6
+    }
+  ],
+  "churnByInternet": [
+    {
+      "service": "DSL",
+      "total": 2421,
+      "churned": 459,
+      "churnRate": 19.0
+    },
+    {
+      "service": "Fiber optic",
+      "total": 3096,
+      "churned": 1297,
+      "churnRate": 41.9
+    },
+    {
+      "service": "No",
+      "total": 1526,
+      "churned": 113,
+      "churnRate": 7.4
+    }
+  ],
+  "churnByPayment": [
+    {
+      "paymentMethod": "Bank transfer (automatic)",
+      "total": 1544,
+      "churned": 258,
+      "churnRate": 16.7
+    },
+    {
+      "paymentMethod": "Credit card (automatic)",
+      "total": 1522,
+      "churned": 232,
+      "churnRate": 15.2
+    },
+    {
+      "paymentMethod": "Electronic check",
+      "total": 2365,
+      "churned": 1071,
+      "churnRate": 45.3
+    },
+    {
+      "paymentMethod": "Mailed check",
+      "total": 1612,
+      "churned": 308,
+      "churnRate": 19.1
+    }
+  ],
+  "churnByTechSupport": [
+    {
+      "techSupport": "No",
+      "total": 3473,
+      "churned": 1446,
+      "churnRate": 41.6
+    },
+    {
+      "techSupport": "No internet service",
+      "total": 1526,
+      "churned": 113,
+      "churnRate": 7.4
+    },
+    {
+      "techSupport": "Yes",
+      "total": 2044,
+      "churned": 310,
+      "churnRate": 15.2
+    }
+  ],
+  "churnByOnlineSecurity": [
+    {
+      "onlineSecurity": "No",
+      "total": 3498,
+      "churned": 1461,
+      "churnRate": 41.8
+    },
+    {
+      "onlineSecurity": "No internet service",
+      "total": 1526,
+      "churned": 113,
+      "churnRate": 7.4
+    },
+    {
+      "onlineSecurity": "Yes",
+      "total": 2019,
+      "churned": 295,
+      "churnRate": 14.6
+    }
+  ],
+  "churnBySenior": [
+    {
+      "seniorCitizen": "Non-Senior",
+      "total": 5901,
+      "churned": 1393,
+      "churnRate": 23.6
+    },
+    {
+      "seniorCitizen": "Senior (65+)",
+      "total": 1142,
+      "churned": 476,
+      "churnRate": 41.7
+    }
+  ],
+  "churnByCharges": [
+    {
+      "chargesBand": "$18-$35",
+      "total": 1735,
+      "churned": 189,
+      "churnRate": 10.9
+    },
+    {
+      "chargesBand": "$36-$60",
+      "total": 1183,
+      "churned": 301,
+      "churnRate": 25.4
+    },
+    {
+      "chargesBand": "$61-$85",
+      "total": 1937,
+      "churned": 639,
+      "churnRate": 33.0
+    },
+    {
+      "chargesBand": "$86-$118",
+      "total": 2188,
+      "churned": 740,
+      "churnRate": 33.8
+    }
+  ]
+}
